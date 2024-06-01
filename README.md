@@ -5,9 +5,11 @@ Overview of the analysis: The non-profit foundation Alphabet Soup wants to desig
 to design a binary classifier that can predict wheither applicants will be successful if funded by Alphabet Soup.
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
+
 **#What variable(s) are the target(s) for your model and what variable(s) are the features for your model?**
 The target for the model is to determine whther the oney used for venture was used effectively or not, therefore the target is (IS_SUCCESSFUL)
 The features are APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMOUNT, and SPECIAL CONSIDERATIONS.  These items have been encoded.    
+
 **#What variable(s) should be removed from the input data because they are neither targets nor features? **
 EIN, NAME, ASK_AMT have been removed as they are neither features nor targets.
 
