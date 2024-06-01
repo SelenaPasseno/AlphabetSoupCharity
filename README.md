@@ -21,8 +21,6 @@ I utilized the tuner to select the begining activation functions, neurons and la
 
 **Were you able to achieve the target model performance?** No.  I was unable to reach the target model performance.
 
-What steps did you take in your attempts to increase model performance?  I was unable to achieve the targeted performance, however as I tried multiple times the 
-analysis became worse. The first test utilised two hidden layers.  Results were .7315
+What steps did you take in your attempts to increase model performance?  I was unable to achieve the targeted performance, however as I tried multiple times the analysis became worse. The first test utilised two hidden layers.  Results were .7306, .7300 and .4676
 
-Summary: The model constructed using the directions provided only resulted in a .7299 value accuracy with the tuner determining the best value accuracy of .7330.
-Since this is a binary classification model, it may be better to use logistic regression model and include the same items.
+Summary: The model constructed using the directions provided only resulted in a .7299 value accuracy with the tuner determining the best value accuracy of .7330. Since this is a binary classification model, it may be better to use logistic regression model and include the same items.  Additionally the names of the companies could be reviewed to see if there are specific companies that are more successful.  It would be possible to encode the top 10 and rerun the tests.
